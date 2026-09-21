@@ -1,0 +1,2 @@
+ALTER TABLE events
+    ADD COLUMN streaming_url VARCHAR(500);
