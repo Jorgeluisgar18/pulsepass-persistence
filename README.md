@@ -247,3 +247,18 @@ Desde la raíz del proyecto ejecutar:
 
 ```bash
 mvn clean test
+
+```
+
+El resultado esperado es:
+
+```text
+BUILD SUCCESS
+```
+
+## Alcance del proyecto
+
+El proyecto se concentra exclusivamente en la capa de persistencia.
+
+No incluye API REST, capa Service, frontend, autenticación,
+pagos, códigos QR ni notificaciones.

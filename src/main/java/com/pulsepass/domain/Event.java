@@ -77,7 +77,9 @@ public class Event {
         this.minimumAge = minimumAge;
         this.venue = venue;
     }
-
+    public void setStreamingUrl(String streamingUrl) {
+        this.streamingUrl = streamingUrl;
+    }
     public void addArtist(Artist artist) {
         this.artists.add(artist);
         artist.getEvents().add(this);
